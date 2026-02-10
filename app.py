@@ -56,7 +56,10 @@ with st.form("litmas_form"):
     no_surat = c3.text_input("No. Surat Permintaan")
     tgl_surat = c1.date_input("Tgl Surat")
     perihal = c2.text_input("Perihal")
-    program = c3.selectbox("Program", ["PB", "CB", "CMB", "Asimilasi"])
+    
+    # PERUBAHAN DISINI: Label lengkap tanpa singkatan
+    program = c3.selectbox("Program Re-Integrasi", 
+                             ["Pembebasan Bersyarat", "Cuti Bersyarat", "Cuti Menjelang Bebas", "Asimilasi"])
     
     st.subheader("🗓️ Tahapan Pidana")
     c1, c2, c3, c4, c5 = st.columns(5)
