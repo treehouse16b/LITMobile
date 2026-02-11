@@ -8,7 +8,7 @@ import google.generativeai as genai
 
 # --- 1. KONFIGURASI AI ---
 # Masukkan API Key Gemini Anda di sini
-API_KEY = "AIzaSy..." 
+API_KEY = "AIzaSyCDZQHto8k6dskFmh6QuV3F4WRwwSHJR68" 
 
 def generate_full_litmas_narasi(data):
     try:
