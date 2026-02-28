@@ -1,4 +1,5 @@
 streamlit
 docxtpl
 google-generativeai
+openpyxl
 pandas
