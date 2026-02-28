@@ -1,5 +1,10 @@
 streamlit
 docxtpl
-google-generativeai
+google-generativeai as genai
 openpyxl
 pandas
+matplotlib.pyplot as plt
+io
+os
+datetime
+json
