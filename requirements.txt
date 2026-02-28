@@ -1,7 +1,8 @@
 streamlit
 docxtpl
-google-generativeai as genai
+google-generativeai
 openpyxl
 pandas
-matplotlib.pyplot as plt
+matplotlib.pyplot
+
 
